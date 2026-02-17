@@ -13,5 +13,6 @@ group :development, :test do
   #gem 'launchy'
   #gem 'rcov'
   gem 'rspec'
+  gem 'rspec-its'
   gem 'shoulda-matchers'
 end

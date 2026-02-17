@@ -4,6 +4,7 @@ require 'rubygems'
 require 'rspec'
 require 'pivot_table'
 require 'ostruct'
+require 'rspec/its'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.

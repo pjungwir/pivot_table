@@ -1,12 +1,11 @@
 # -*- encoding: utf-8 -*-
 require File.expand_path('../lib/pivot_table', __FILE__)
-require 'base64'
 
 Gem::Specification.new do |s|
   s.name        = "pivot_table"
   s.version     = PivotTable::VERSION
-  s.authors     = ["Ed James"]
-  s.email       = Base64.decode64("ZWQuamFtZXMuZW1haWxAZ21haWwuY29t\n")
+  s.authors     = ["Ed James", "Paul A. Jungwirth"]
+  s.email       = ["ZWQuamFtZXMuZW1haWxAZ21haWwuY29t", "pj@illuminatedcomputing.com"]
   s.homepage    = "https://github.com/edjames/pivot_table"
   s.summary     = "pivot_table-#{s.version}"
   s.description = "Transform an ActiveRecord-ish data set into a pivot table of objects"
